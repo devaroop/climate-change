@@ -1,0 +1,17 @@
+Water Level Data of : Khadki
+State :Maharashtra
+District :Pune
+Block :Pune City
+Lattitude(DD):18.56361111
+Longitude(DD):73.84055556
+Unit:All values are in mbgl
+Period : 2013-2018 
+WLCODE,YEAR_OBS,January(POSTMONSOONRABI),Mar/Apr/May(PREMONSOON),August(MONSOON),November(POSTMONSOONKHARIF)
+W25884,2013,undefined,undefined,2.3000000000000003,undefined
+W25884,2014,undefined,undefined,1.1,undefined
+W25884,2015,undefined,undefined,2.4,undefined
+W25884,2016,undefined,undefined,1.6,undefined
+W25884,2017,undefined,undefined,0,undefined
+W25884,2017,undefined,undefined,2.1,undefined
+W25884,2018,undefined,undefined,0,undefined
+W25884,2018,undefined,undefined,0,undefined

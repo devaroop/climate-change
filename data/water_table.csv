@@ -1,0 +1,34 @@
+STATE,DISTRICT,TEH_NAME,BLOCK_NAME,LAT,LON,SITE_NAME,SITE_TYPE,WLCODE,YEAR_OBS,MONSOON,POMRB,POMKH,PREMON
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2018,'0,3,'0,'0
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2018,'0,'0,'0,4.1
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2018,'0,6.68,'0,'0
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2018,'0,'0,'0,3.45
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2017,'0,'0,1.6,'0
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2017,2.63,6.15,'0,3.2
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2017,'0,'0,3.5,'0
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2017,2.1,4.15,'0,5.5
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2016,3.8,'0,3.15,6.8
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2016,1.6,4.56,3.2,5.15
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2015,2.4,'0,.8,3.9
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2015,3.31,6.68,1.85,4.58
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2014,1.55,2.85,4.8,3.25
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2014,1.1,'0,2.94,6.41
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2013,2.35,6.1,2.6,6.11
+MS,Pune,"Pune City","Pune City",18.56361111,73.84055556,Khadki,"Dug Well",W25884,2013,2.3,'0,2.9,5.65
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2012,'0,3.35,7.91,6.4
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2011,.2,2.65,1.68,6.27
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2010,1.2,3.2,1.5,5.4
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2009,2.3,3.05,5.35,4.8
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2008,2.7,4.75,3.95,3.05
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2007,.9,'0,6.1,5.15
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2006,1.9,3.7,6.15,7.5
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2005,1.15,7.2,1.55,3.93
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2004,'0,2.4,'0,2.92
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2003,3.55,5.95,4,5.39
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2002,3.61,1.85,5.2,5
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2001,2.5,2.43,2.45,3.8
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,2000,1.55,3,3.84,1.8
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,1999,3.14,2.05,2.47,3.9
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,1998,2.67,4.07,2.6,3.4
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,1997,1.49,4.25,2.71,6.04
+MS,Pune,Manchar,"Pune City",18.53888889,73.84583333,Pune-1,"Dug Well",W07385,1996,1.74,2.82,1.93,3.6
