@@ -1,0 +1,1536 @@
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta charset="UTF-8">
+    <style type="text/css">.table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show; align="center"}
+.X0{color:rgb(255,255,255);font-family:Verdana;font-size:10pt;background-color:#005195;border-right-style:solid;border-right:1px solid black;border-right-color:000000;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34;}
+.X1{color:rgb(255,255,255);font-family:Verdana;font-size:10pt;background-color:#005195;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34;}
+.X2{color:rgb(255,255,255);font-family:Verdana;font-size:10pt;background-color:#005195;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34;}
+.X3{color:rgb(51,51,51);font-family:Verdana;font-size:8pt;background-color:#8BC4F3;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;font-weight:bold;vertical-align:center;text-align:left;word-wrap:break-word;height:29;}
+.X4{color:rgb(51,51,51);font-family:Verdana;font-size:8pt;background-color:#8BC4F3;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;font-weight:bold;vertical-align:center;text-align:right;word-wrap:break-word;height:29;}
+.X5{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;font-weight:bold;vertical-align:center;text-align:left;word-wrap:break-word;height:17;}
+.X6{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:#DFF0FF;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;font-weight:bold;vertical-align:center;text-align:right;word-wrap:break-word;height:17;}
+.X7{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;font-weight:bold;vertical-align:center;text-align:right;word-wrap:break-word;height:17;}
+.X8{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;vertical-align:center;text-align:left;word-wrap:break-word;height:17;}
+.X9{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:#DFF0FF;border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;vertical-align:center;text-align:right;word-wrap:break-word;height:17;}
+.X10{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top:1px solid black;border-bottom-color:000000;border-bottom-style:solid;border-bottom:1px solid black;border-left-color:000000;border-left-style:solid;border-left:1px solid black;border-right-color:000000;border-right-style:solid;border-right:1px solid black;padding-left:5px;padding-right:5px;27px;vertical-align:center;text-align:right;word-wrap:break-word;height:17;}
+.X11{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top:1px solid black;vertical-align:bottom;text-align:general;word-wrap:break-word;height:20;}
+.X12{color:rgb(128,128,128);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);vertical-align:center;text-align:general;word-wrap:break-word;height:20;}
+.X13{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:20;}
+.X14{color:rgb(0,0,0);font-family:Verdana;font-size:8pt;background-color:rgb(255,255,255);vertical-align:center;text-align:general;word-wrap:break-word;height:20;}
+.X15{color:rgb(0,0,0);font-family:Calibri;font-size:11pt;background-color:rgb(255,255,255);vertical-align:center;text-align:general;word-wrap:break-word;height:20;}
+.X16{color:rgb(0,0,0);font-family:Calibri;font-size:11pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:20;}</style>
+  </head>
+  
+   <body oncontextmenu='return false;' onload='javascript:MyIpIs();'  onkeydown='return onkeyDowEvent(event)'>  </noscript> <script language='JavaScript'>  function msg() { alert('Please download file, Save as not allowed');  }  function MyIpIs() { var elem = document.getElementById('toc'); elem.style.visibility='hidden';   var url=window.location.href;  var ind =url.indexOf('.com'); var ind1 =url.indexOf('.local'); if(ind == -1 || ind1 ==-1 ) { elem.style.visibility='visible'; } else { elem.style.visibility='hidden'; elem.parentNode.removeChild(elem); msg(); } } </script> <script type='text/javascript'>  function onkeyDowEvent(e) { var keycode; var keyName=''; if(window.event) {if(e.ctrlKey){return false ; } else {return true; }            } return true; } </script> <span style='display:none;' id='myIp'></span><span style='display:none;' id='S1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><div id='toc' style='visibility=hidden;' oncopy='retuns false;'>
+    <table class="table" align="center" cellspacing="0">
+      <Col width="300" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <Col width="85" />
+      <tr>
+        <td COLSPAN="11" class="X0">Number&nbsp;of&nbsp;Newly&nbsp;Registered&nbsp;Motor&nbsp;Vehicles&nbsp;(Transport/Non-Transport)&nbsp;in&nbsp;Maharashtra<BR/>(2006-2007&nbsp;to&nbsp;2015-2016)</td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <p style="margin:0px;" "width:300">Vehicles</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2006-<BR/>2007</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2007-<BR/>2008</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2008-<BR/>2009</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2009-<BR/>2010</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2010-<BR/>2011</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2011-<BR/>2012</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2012-<BR/>2013</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2013-<BR/>2014</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2014-<BR/>2015</p>
+        </td>
+        <td class="X4">
+          <p style="margin:0px;" "width:85">2015-<BR/>2016</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Multiaxled/Articulated&nbsp;Vehicles</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1003</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1527</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1687</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1503</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">2040</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">2695</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">3682</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">3284</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">5417</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">6656</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Trucks&nbsp;and&nbsp;Lorries</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">27580</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">27953</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">17508</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">15943</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">24805</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">30778</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">20068</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">26726</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">20945</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">23353</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Light&nbsp;Motor&nbsp;Vehicles&nbsp;(Goods)</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Four&nbsp;Wheelers</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">20750</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">20285</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">17658</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">21836</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">30063</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">42786</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">45036</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">38702</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">40626</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">38445</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Three&nbsp;Wheelers</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">28614</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">28644</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">21168</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">23270</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">27227</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">33964</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">29811</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">25658</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">24866</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">20460</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">49364</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">48929</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">38826</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">45106</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">57290</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">76750</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">74847</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">64360</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">65492</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">58905</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Buses</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Stage&nbsp;Carriages</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1738</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1587</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1767</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">2058</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2701</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">2519</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">3045</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">3003</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">898</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1530</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Contract&nbsp;Carriages</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2286</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">3538</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2355</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">2602</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">3615</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">4035</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">3809</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">3623</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">3827</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">5796</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Private&nbsp;Service&nbsp;Vehicles</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1049</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">613</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">400</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">378</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">413</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">667</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">693</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">852</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">559</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">349</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Other&nbsp;Buses</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1003</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">872</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1098</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1471</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2006</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">2989</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1947</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">4630</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">4948</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">4398</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">6076</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">6610</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">5620</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">6509</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">8735</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">10210</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">9494</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">12108</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">10232</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">12073</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Taxies</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Motor&nbsp;Cabs</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">5934</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">5243</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">4044</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Maxi&nbsp;Cabs</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">9841</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">14212</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">41614</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Other&nbsp;Taxis</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">14621</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">17103</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">15055</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">14461</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">19719</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">20430</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">16937</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">15775</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">19455</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">45658</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Light&nbsp;Motor&nbsp;Vehicles&nbsp;(Passengers)</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Three&nbsp;Seaters</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">39361</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">74273</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">46507</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Four&nbsp;to&nbsp;Six&nbsp;Seaters</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">-</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">31613</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">25958</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">21354</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">37436</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">26050</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">28203</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">31364</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">39361</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">74273</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">46507</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Motor&nbsp;Cycles&nbsp;on&nbsp;Hire</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">0</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total&nbsp;Transport</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">130257</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">128080</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">100050</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">120958</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">138639</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">169066</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">156392</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">161614</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">195814</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">193152</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Two&nbsp;Wheelers</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:54px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Scooters</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">103360</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">68930</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">73490</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">93951</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">137303</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">166875</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">158228</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">277808</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">279872</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">412959</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Mopeds</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">49789</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">30454</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">39427</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">38288</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">39011</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">37827</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">39413</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">33022</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">27966</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">32774</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Motor&nbsp;Cycles</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">723521</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">715514</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">694303</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">832663</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1064005</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1285018</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1304946</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1238120</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">1359483</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">1293332</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">876670</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">814898</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">807220</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">964902</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1240319</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1489720</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1502587</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1548950</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1667321</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1739065</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Cars</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">147948</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">161856</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">168921</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">205582</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">254739</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">290880</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">290711</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">264995</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">280514</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">287389</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Jeeps</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">17362</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">18428</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">15949</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">17988</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">22541</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">28917</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">24767</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">20118</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">23907</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">18185</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Omni&nbsp;Buses</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2784</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">28</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">192</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">348</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">172</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">60</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">105</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">22</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">77</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">55</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Tractors</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">20339</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">25210</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">24491</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">29053</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">39933</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">48533</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">43423</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">55439</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">51614</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">43977</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Trailers</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">14824</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">16195</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">14109</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">17368</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">22765</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">29511</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">12757</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">16595</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">17822</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">16790</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <p style="margin:0px;" "width:300">Other&nbsp;Vehicles&nbsp;not&nbsp;Covered</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2859</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">3708</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2820</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">2973</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">3696</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">4539</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">7127</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">3247</p>
+        </td>
+        <td class="X9">
+          <p style="margin:0px;" "width:85">2866</p>
+        </td>
+        <td class="X10">
+          <p style="margin:0px;" "width:85">5170</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Total&nbsp;Non-Transport</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1082786</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1040323</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1033702</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1238214</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1584165</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1892160</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1881477</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1909366</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">2044121</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">2110631</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <p style="margin:0px;" "width:300">Grand&nbsp;Total&nbsp;(Transport&nbsp;+&nbsp;Non-Transport)</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1213043</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1168403</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1133752</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">1359172</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">1722804</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">2061226</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">2037869</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">2070980</p>
+        </td>
+        <td class="X6">
+          <p style="margin:0px;" "width:85">2239935</p>
+        </td>
+        <td class="X7">
+          <p style="margin:0px;" "width:85">2303783</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="X11">
+          <p style="margin:0px;" "width:300px !Important;width:300px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X11">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X12">
+          <p style="margin:0px;" "width:300">Note&nbsp;:&nbsp;-&nbsp;:&nbsp;Not&nbsp;reported.</p>
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X13">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X12" COLSPAN="4">
+          <p style="margin:0px;" "width:555">Source&nbsp;:&nbsp;Ministry&nbsp;of&nbsp;Road&nbsp;Transport&nbsp;&&nbsp;Highways&nbsp;Govt.&nbsp;of&nbsp;India.&nbsp;(ON1633)&nbsp;&&nbsp;Past&nbsp;Issues.</p>
+        </td>
+        <td class="X12">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X14">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X12">
+          <p style="margin:0px;" "width:300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </td>
+        <td class="X12">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X12">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X12">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X12">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X15">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X16">
+          <p style="margin:0px;" "width:300px !Important;width:300px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X16">
+          <p style="margin:0px;" "width:300px !Important;width:300px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+        <td class="X16">
+          <p style="margin:0px;" "width:85px !Important;width:85px;" />
+        </td>
+      </tr>
+    </table>
+  </body>  </div>   </body></html>
