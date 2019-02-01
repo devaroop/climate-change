@@ -1,0 +1,237 @@
+code,iso,country,CXN.raw.2016
+4,AFG,Afghanistan,8
+8,ALB,Albania,77
+12,DZA,Algeria,87
+16,ASM,American Samoa,41.1
+20,AND,Andorra,100
+24,AGO,Angola,25.6
+660,AIA,Anguilla,NA
+28,ATG,Antigua and Barbuda,NA
+32,ARG,Argentina,65
+51,ARM,Armenia,70
+533,ABW,Aruba,NA
+36,AUS,Australia,95
+40,AUT,Austria,94.5
+31,AZE,Azerbaijan,35
+44,BHS,Bahamas,NA
+48,BHR,Bahrain,92
+50,BGD,Bangladesh,2
+52,BRB,Barbados,NA
+112,BLR,Belarus,84.03
+56,BEL,Belgium,88.2
+84,BLZ,Belize,15.1
+204,BEN,Benin,4.2
+60,BMU,Bermuda,5
+64,BTN,Bhutan,10
+68,BOL,Bolivia,0
+70,BIH,Bosnia and Herzegovina,35.16
+72,BWA,Botswana,19
+76,BRA,Brazil,50
+92,VGB,British Virgin Islands,24.5
+96,BRN,Brunei Darussalam,44
+100,BGR,Bulgaria,74.9
+854,BFA,Burkina Faso,1
+108,BDI,Burundi,12
+116,KHM,Cambodia,10
+120,CMR,Cameroon,2
+124,CAN,Canada,87.1
+132,CPV,Cape Verde,19.4
+136,CYM,Cayman Islands,NA
+140,CAF,Central African Republic,1
+148,TCD,Chad,3
+152,CHL,Chile,96.6
+156,CHN,China,56
+170,COL,Colombia,53
+174,COM,Comoros,NA
+184,COK,Cook Islands,NA
+188,CRI,Costa Rica,25.6
+384,CIV,Cote d'Ivoire,12
+191,HRV,Croatia,43.6
+192,CUB,Cuba,0
+531,CUW,Curacao,NA
+196,CYP,Cyprus,29.8
+203,CZE,Czech Republic,84.7
+180,COD,Dem. Rep. Congo,4
+208,DNK,Denmark,90.82
+262,DJI,Djibouti,7
+212,DMA,Dominica,2
+214,DOM,Dominican Republic,83
+218,ECU,Ecuador,67.3
+818,EGY,Egypt,50
+222,SLV,El Salvador,41.5
+226,GNQ,Equatorial Guinea,25
+232,ERI,Eritrea,23
+233,EST,Estonia,82.4
+231,ETH,Ethiopia,1
+234,FRO,Faeroe Islands,NA
+238,FLK,Falkland Islands,NA
+242,FJI,Fiji,39
+246,FIN,Finland,83
+250,FRA,France,81.5
+254,GUF,French Guiana,46.9
+258,PYF,French Polynesia,NA
+266,GAB,Gabon,6
+270,GMB,Gambia,8
+268,GEO,Georgia,70
+276,DEU,Germany,99.8
+288,GHA,Ghana,7
+292,GIB,Gibraltar,NA
+300,GRC,Greece,88.1
+304,GRL,Greenland,NA
+308,GRD,Grenada,NA
+312,GLP,Guadeloupe,39.3
+316,GUM,Guam,NA
+320,GTM,Guatemala,40
+324,GIN,Guinea,10
+624,GNB,Guinea-Bissau,13
+328,GUY,Guyana,0
+332,HTI,Haiti,3
+336,VAT,Holy See,NA
+340,HND,Honduras,35.6
+344,HKG,Hong Kong,93
+348,HUN,Hungary,75
+352,ISL,Iceland,91
+356,IND,India,11.7
+360,IDN,Indonesia,2.5
+364,IRN,Iran,37.3
+368,IRQ,Iraq,0
+372,IRL,Ireland,68.61
+833,IMN,Isle of Man,NA
+376,ISR,Israel,98.8
+380,ITA,Italy,84.7
+388,JAM,Jamaica,0
+392,JPN,Japan,76.3
+400,JOR,Jordan,62
+398,KAZ,Kazakhstan,31.2
+404,KEN,Kenya,4.5
+296,KIR,Kiribati,NA
+689,XKX,Kosovo,NA
+414,KWT,Kuwait,100
+417,KGZ,Kyrgyzstan,42
+418,LAO,Laos,0
+428,LVA,Latvia,71.14
+422,LBN,Lebanon,60
+426,LSO,Lesotho,6
+430,LBR,Liberia,0
+434,LBY,Libya,48
+438,LIE,Liechtenstein,NA
+440,LTU,Lithuania,0
+442,LUX,Luxembourg,98.7
+446,MAC,Macao,NA
+807,MKD,Macedonia,10
+450,MDG,Madagascar,5
+454,MWI,Malawi,3.5
+458,MYS,Malaysia,31.8
+462,MDV,Maldives,0
+466,MLI,Mali,8
+470,MLT,Malta,100
+584,MHL,Marshall Islands,43.3
+474,MTQ,Martinique,48.2
+478,MRT,Mauritania,2
+480,MUS,Mauritius,0
+175,MYT,Mayotte,NA
+484,MEX,Mexico,0
+583,FSM,Micronesia,NA
+498,MDA,Moldova,0
+492,MCO,Monaco,100
+496,MNG,Mongolia,33
+499,MNE,Montenegro,44
+500,MSR,Montserrat,NA
+504,MAR,Morocco,72
+508,MOZ,Mozambique,3
+104,MMR,Myanmar,0
+516,NAM,Namibia,25
+520,NRU,Nauru,NA
+524,NPL,Nepal,10
+528,NLD,Netherlands,99.4
+530,ANT,Netherlands Antilles,NA
+540,NCL,New Caledonia,NA
+554,NZL,New Zealand,85.6
+558,NIC,Nicaragua,40
+562,NER,Niger,4
+566,NGA,Nigeria,8
+570,NIU,Niue,NA
+574,NFK,Norfolk Island,NA
+408,PRK,North Korea,9
+580,MNP,Northern Mariana Islands,NA
+578,NOR,Norway,85.3
+512,OMN,Oman,27.1
+586,PAK,Pakistan,10
+585,PLW,Palau,NA
+591,PAN,Panama,0
+598,PNG,Papua New Guinea,10
+600,PRY,Paraguay,14.7
+604,PER,Peru,80.2
+608,PHL,Philippines,4.1
+612,PCN,Pitcairn,NA
+616,POL,Poland,70.3
+620,PRT,Portugal,0
+630,PRI,Puerto Rico,57
+634,QAT,Qatar,80
+178,COG,Republic of Congo,9
+638,REU,Reunion,NA
+642,ROU,Romania,46.8
+643,RUS,Russia,74
+646,RWA,Rwanda,10
+654,SHN,Saint Helena,NA
+659,KNA,Saint Kitts and Nevis,NA
+662,LCA,Saint Lucia,NA
+666,SPM,Saint Pierre and Miquelon,NA
+670,VCT,Saint Vincent and the Grenadines,NA
+882,WSM,Samoa,NA
+674,SMR,San Marino,NA
+678,STP,Sao Tome and Principe,NA
+682,SAU,Saudi Arabia,58
+686,SEN,Senegal,10
+688,SRB,Serbia,57.8
+690,SYC,Seychelles,NA
+694,SLE,Sierra Leone,2
+702,SGP,Singapore,100
+534,SXM,Sint Maarten,NA
+703,SVK,Slovakia,63.6
+705,SVN,Slovenia,62.6
+90,SLB,Solomon Islands,30
+706,SOM,Somalia,NA
+710,ZAF,South Africa,57
+410,KOR,South Korea,92.11
+728,SSD,South Sudan,NA
+724,ESP,Spain,99.1
+144,LKA,Sri Lanka,2.5
+275,PSE,State of Palestine,NA
+729,SDN,Sudan,1
+740,SUR,Suriname,1
+744,SJM,Svalbard and Jan Mayen Islands,NA
+748,SWZ,Swaziland,74
+752,SWE,Sweden,0
+756,CHE,Switzerland,98.15
+760,SYR,Syria,96
+158,TWN,Taiwan,43.7
+762,TJK,Tajikistan,45
+834,TZA,Tanzania,18
+764,THA,Thailand,0
+626,TLS,Timor-Leste,6
+768,TGO,Togo,0
+772,TKL,Tokelau,NA
+776,TON,Tonga,NA
+780,TTO,Trinidad and Tobago,27
+788,TUN,Tunisia,64.05
+792,TUR,Turkey,83.76
+795,TKM,Turkmenistan,49
+796,TCA,Turks and Caicos Islands,NA
+798,TUV,Tuvalu,NA
+800,UGA,Uganda,6
+804,UKR,Ukraine,65.1
+784,ARE,United Arab Emirates,80
+826,GBR,United Kingdom,99.54
+840,USA,United States of America,74.5
+850,VIR,United States Virgin Islands,NA
+858,URY,Uruguay,45
+860,UZB,Uzbekistan,39
+548,VUT,Vanuatu,NA
+862,VEN,Venezuela,53
+704,VNM,Viet Nam,2
+876,WLF,Wallis and Futuna Islands,NA
+732,ESH,Western Sahara,NA
+887,YEM,Yemen,27.1
+894,ZMB,Zambia,28
+716,ZWE,Zimbabwe,52

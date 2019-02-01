@@ -1,0 +1,38 @@
+Type,Abbreviation,Verbose,Weight,NextLevel,MaterialityFilter
+Indicator,PBD,Lead Exposure,1,HMT,
+Indicator,PME,PM2.5 exposure,0.3,AIR,
+Indicator,PMW,PM2.5 exceedance,0.3,AIR,
+Indicator,HAD,Household air pollution from solid fuels,0.4,AIR,
+Indicator,USD,Unsafe sanitation ,0.5,H2O,
+Indicator,UWD,Unsafe water exposure,0.5,H2O,
+Indicator,WWT,Wastewater treatment level,1,WRS,
+Indicator,SNM,Sustainable Nitrogen Management Index,1,AGR,
+Indicator,TCL,Tree cover loss,1,FRT,FOR
+Indicator,FSS,Fish Stock Status,0.5,FSH,SEA
+Indicator,MTR,Benchmarked Marine Trophic Index,0.5,FSH,SEA
+Indicator,MPA,Marine protection,0.2,BDH,SEA
+Indicator,TBN,Terrestrial Biome Protection _ National weights,0.2,BDH,
+Indicator,TBG,Terrestrial Biome Protection _ Global weights,0.2,BDH,
+Indicator,PAR,Protected Areas Representativeness Index,0.1,BDH,
+Indicator,SPI,Species Protection Index,0.2,BDH,
+Indicator,SHI,Species Habitat Index,0.1,BDH,
+Indicator,DCT,Blend of absolute and trend in CO2 intensity,0.5,CCE,
+Indicator,DMT,Blend of absolute and trend in CH4 intensity,0.2,CCE,
+Indicator,DNT,Blend of absolute and trend in N2O intensity,0.05,CCE,
+Indicator,DBT,Blend of absolute and trend in Black Carbon intensity,0.05,CCE,
+Indicator,DPT,Blend of absolute and trend in CO2/kWh,0.2,CCE,
+Indicator,DST,Blend of absolute and trend in SO2 intensity,0.5,APE,
+Indicator,DXT,Blend of absolute and trend in NOx intensity,0.5,APE,
+IssueCategory,HMT,Heavy Metals,0.05,HLT,
+IssueCategory,AIR,Air Quality,0.65,HLT,
+IssueCategory,H2O,Water Quality,0.3,HLT,
+IssueCategory,WRS,Water Resources,0.1,ECO,
+IssueCategory,AGR,Agriculture,0.05,ECO,
+IssueCategory,FRT,Forests,0.1,ECO,FOR
+IssueCategory,FSH,Fisheries,0.1,ECO,SEA
+IssueCategory,BDH,Biodiversity & Habitat,0.25,ECO,
+IssueCategory,CCE,Climate Change,0.3,ECO,
+IssueCategory,APE,Air Pollution,0.1,ECO,
+PolicyObjective,HLT,Environmental Health,0.4,EPI,
+PolicyObjective,ECO,Ecosystem Vitality,0.6,EPI,
+EPI,EPI,Environmental Performance Index,,,
