@@ -1,17 +1,9 @@
-Water Level Data of : Pune-1
-State :Maharashtra
-District :Pune
-Block :Pune City
-Lattitude(DD):18.53888889
-Longitude(DD):73.84583333
-Unit:All values are in mbgl
-Period : 2009-2018 
 WLCODE,YEAR_OBS,January(POSTMONSOONRABI),Mar/Apr/May(PREMONSOON),August(MONSOON),November(POSTMONSOONKHARIF)
-W07385,2009,undefined,undefined,2.3000000000000003,undefined
+W07385,2009,undefined,undefined,2.3,undefined
 W07385,2010,undefined,undefined,1.2,undefined
 W07385,2011,undefined,undefined,0.2,undefined
 W07385,2012,undefined,undefined,0,undefined
-W25884,2013,undefined,undefined,2.3000000000000003,undefined
+W25884,2013,undefined,undefined,2.3,undefined
 W07385,2013,undefined,undefined,2.35,undefined
 W25884,2014,undefined,undefined,1.1,undefined
 W07385,2014,undefined,undefined,1.55,undefined
