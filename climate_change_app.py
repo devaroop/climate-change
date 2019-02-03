@@ -10,7 +10,7 @@ def dashboard():
 
 @app.route('/get_data')
 def get_data():
-    import pdb;pdb.set_trace()
+    #    import pdb;pdb.set_trace()
     given_date = request.args.get('date')
     date, month, year = given_date.split('/')
     result = fetch_data_for(day, month, year)
