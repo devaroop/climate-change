@@ -13,15 +13,15 @@ var build_charts = function(data){
 
   chart_template_build(tempChartCanvas, data["Year"], data["Temp(deg Centigrade)"], "Temp in deg C");
   chart_template_build(humidityChart, data["Year"], data["% Humidity"], "% Humidity");
-  chart_template_build(vehicleChart, data["Year"], data["% Humidity"], "Total Vehicles in Pune");
-  chart_template_build(treeChart, data["Year"], data["% Humidity"], "Total Forest Cover");
-  chart_template_build(populationChart, data["Year"], data["% Humidity"], "Total Population in Pune");
-  chart_template_build(waterChart, data["Year"], data["% Humidity"], "Total ground water table");
-  chart_template_build(ozoneChart, data["Year"], data["% Humidity"], "Ozone Variation");
-  chart_template_build(noxChart, data["Year"], data["% Humidity"], "NOx variation");
-  chart_template_build(so2Chart, data["Year"], data["% Humidity"], "SO2 variation");
-  chart_template_build(pm25Chart, data["Year"], data["% Humidity"], "PM2.5 variation");
-  chart_template_build(pm10Chart, data["Year"], data["% Humidity"], "PM10 variation");
+  chart_template_build(vehicleChart, data["Year"], data["Total Vehicles"], "Total Vehicles in Pune");
+  chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover");
+  chart_template_build(populationChart, data["Year"], data["Population"], "Total Population in Pune");
+  chart_template_build(waterChart, data["Year"], data["August(MONSOON)"], "Total ground water table");
+  chart_template_build(ozoneChart, data["Year"], data["Ozone"], "Ozone Variation");
+  chart_template_build(noxChart, data["Year"], data["NOx"], "NOx variation");
+  chart_template_build(so2Chart, data["Year"], data["SO2"], "SO2 variation");
+  chart_template_build(pm25Chart, data["Year"], data["PM2.5"], "PM2.5 variation");
+  chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation");
 };
 
 var chart_template_build = function(elem, xaxis, yaxis, label){
@@ -38,18 +38,23 @@ var chart_template_build = function(elem, xaxis, yaxis, label){
 };
 
 $(document).ready(function(){
-  var date_query = $('#date').val();
+  var date_query = $('#show_date').val();
   query_for_data(date_query);
 
   //set on change
-  $("#date").change(function(){
-    var date_query = $('#date').val();
+  $("#show_date").change(function(){
+    var date_query = new Date($('#show_date').val()).toLocaleDateString();
     query_for_data(date_query);
   });
 });
 
 var query_for_data = function(date){
-  $.get("/get_data?date=" + date_query, function(data, status){
+  if(date == ""){
+    $('#show_date').val(new Date().toISOString().slice(0, 10))
+    date = new Date().toLocaleDateString();
+  }
+  
+  $.get("/get_data?date=" + date, function(data, status){
     console.log(data);
     build_charts(data);
   });
