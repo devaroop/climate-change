@@ -1,13 +1,17 @@
 backcall==0.1.0
 bleach==3.1.0
+Click==7.0
 cycler==0.10.0
 decorator==4.3.2
 defusedxml==0.5.0
 entrypoints==0.3
+Flask==1.0.2
+Flask-JSON==0.3.3
 ipykernel==5.1.0
 ipython==7.2.0
 ipython-genutils==0.2.0
 ipywidgets==7.4.2
+itsdangerous==1.1.0
 jedi==0.13.2
 Jinja2==2.10
 jsonschema==2.6.0
@@ -46,5 +50,6 @@ tornado==5.1.1
 traitlets==4.3.2
 wcwidth==0.1.7
 webencodings==0.5.1
+Werkzeug==0.14.1
 widgetsnbextension==3.4.2
 xlrd==1.2.0
