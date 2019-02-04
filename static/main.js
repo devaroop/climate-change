@@ -53,6 +53,8 @@ $(document).ready(function(){
 });
 
 var query_for_data = function(date){
+  $('#date_display').text("Fetching.....");
+  
   if(date == ""){
     $('#show_date').val(new Date().toISOString().slice(0, 10))
     date = new Date().toLocaleDateString();
@@ -62,6 +64,7 @@ var query_for_data = function(date){
     //string data (there are reasons why, ask me)
     data = data.replace(/NaN/g, null);
     build_charts($.parseJSON(data));
+    $('#date_display').text(date);
   });
 };
 
