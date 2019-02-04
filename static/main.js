@@ -11,32 +11,36 @@ var build_charts = function(data){
       pm25Chart = $("#pm25Chart")[0].getContext('2d'),
       pm10Chart = $("#pm10Chart")[0].getContext('2d');
 
-  chart_template_build(tempChartCanvas, data["Year"], data["Temp"], "Temp in deg C");
-  chart_template_build(humidityChart, data["Year"], data["Humidity"], "% Humidity");
-  chart_template_build(vehicleChart, data["Year"], data["Total Vehicles"], "Total Vehicles in Pune");
-  chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover");
-  chart_template_build(populationChart, data["Year"], data["Population"], "Total Population in Pune");
-  chart_template_build(waterChart, data["Year"], data["August(MONSOON)"], "Total ground water table");
-  chart_template_build(ozoneChart, data["Year"], data["Ozone"], "Ozone Variation");
-  chart_template_build(noxChart, data["Year"], data["NOx"], "NOx variation");
-  chart_template_build(so2Chart, data["Year"], data["SO2"], "SO2 variation");
-  chart_template_build(pm25Chart, data["Year"], data["PM2.5"], "PM2.5 variation");
-  chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation");
+  chart_template_build(tempChartCanvas, data["Year"], data["Temp"], "Temp in deg C", "line");
+  chart_template_build(humidityChart, data["Year"], data["Humidity"], "% Humidity", "line");
+  chart_template_build(vehicleChart, data["Year"], data["Total Vehicles"], "Total Vehicles in Pune", "line");
+  chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover", "bar");
+  chart_template_build(populationChart, data["Year"], data["Population"], "Total Population in Pune", "line");
+  chart_template_build(waterChart, data["Year"], data["August(MONSOON)"], "Total ground water table", "line");
+  chart_template_build(ozoneChart, data["Year"], data["Ozone"], "Ozone Variation", "bar");
+  chart_template_build(noxChart, data["Year"], data["NOx"], "NOx variation", "bar");
+  chart_template_build(so2Chart, data["Year"], data["SO2"], "SO2 variation", "bar");
+  chart_template_build(pm25Chart, data["Year"], data["PM2.5"], "PM2.5 variation", "bar");
+  chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation", "bar");
 };
 
 var randomColorGenerator = function () { 
   return '#' + (Math.random().toString(16) + '0000000').slice(2, 8); 
 };
 
-var chart_template_build = function(elem, xaxis, yaxis, label){
+var chart_template_build = function(elem, xaxis, yaxis, label, graph_type){
   new Chart(elem, {
-    type: 'line',
+    type: graph_type,
     data: {
       labels: xaxis,
       datasets: [{
 	label: label,
 	data: yaxis,
-	borderColor: randomColorGenerator()
+	borderColor: randomColorGenerator(),
+	fillColor: randomColorGenerator(), 
+        strokeColor: randomColorGenerator(), 
+        highlightFill: randomColorGenerator(),
+        highlightStroke: randomColorGenerator(),
       }]
     }
   });
