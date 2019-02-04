@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request
-from flask_json import FlaskJSON, json_response
-import requests, json
+from flask import jsonify
 import time, datetime
+from AllReport import get_populated_map
+import json
 
 app = Flask(__name__)
-FlaskJSON(app)
+
 
 def fetch_current_weather(date):
     # Enter your API key here 
@@ -33,5 +34,5 @@ def get_data():
     #    import pdb;pdb.set_trace()
     given_date = request.args.get('date')
     date, month, year = given_date.split('/')
-    result = fetch_data_for(day, month, year)
-    return json_response(result)
+    result = get_populated_map(date, month, year)
+    return json.dumps(result)

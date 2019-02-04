@@ -1,18 +1,18 @@
 var build_charts = function(data){
-  var tempChartCanvas = $("#tempChart").getContext('2d'),
-      humidityChart = $("#humidityChart").getContext('2d'),
-      vehicleChart = $("#vehicleChart").getContext('2d'),
-      treeChart = $("#treeChart").getContext('2d'),
-      populationChart = $("#populationChart").getContext('2d'),
-      waterChart = $("#waterChart").getContext('2d'),
-      ozoneChart = $("#ozoneChart").getContext('2d'),
-      noxChart = $("#noxChart").getContext('2d'),
-      so2Chart = $("#so2Chart").getContext('2d'),
-      pm25Chart = $("#pm25Chart").getContext('2d'),
-      pm10Chart = $("#pm10Chart").getContext('2d');
+  var tempChartCanvas = $("#tempChart")[0].getContext('2d'),
+      humidityChart = $("#humidityChart")[0].getContext('2d'),
+      vehicleChart = $("#vehicleChart")[0].getContext('2d'),
+      treeChart = $("#treeChart")[0].getContext('2d'),
+      populationChart = $("#populationChart")[0].getContext('2d'),
+      waterChart = $("#waterChart")[0].getContext('2d'),
+      ozoneChart = $("#ozoneChart")[0].getContext('2d'),
+      noxChart = $("#noxChart")[0].getContext('2d'),
+      so2Chart = $("#so2Chart")[0].getContext('2d'),
+      pm25Chart = $("#pm25Chart")[0].getContext('2d'),
+      pm10Chart = $("#pm10Chart")[0].getContext('2d');
 
-  chart_template_build(tempChartCanvas, data["Year"], data["Temp(deg Centigrade)"], "Temp in deg C");
-  chart_template_build(humidityChart, data["Year"], data["% Humidity"], "% Humidity");
+  chart_template_build(tempChartCanvas, data["Year"], data["Temp"], "Temp in deg C");
+  chart_template_build(humidityChart, data["Year"], data["Humidity"], "% Humidity");
   chart_template_build(vehicleChart, data["Year"], data["Total Vehicles"], "Total Vehicles in Pune");
   chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover");
   chart_template_build(populationChart, data["Year"], data["Population"], "Total Population in Pune");
@@ -41,6 +41,10 @@ $(document).ready(function(){
   var date_query = $('#show_date').val();
   query_for_data(date_query);
 
+  $( document ).ajaxError(function( event, jqxhr, settings, thrownError ) {
+    console.log(thrownError);
+  });
+  
   //set on change
   $("#show_date").change(function(){
     var date_query = new Date($('#show_date').val()).toLocaleDateString();
@@ -53,10 +57,11 @@ var query_for_data = function(date){
     $('#show_date').val(new Date().toISOString().slice(0, 10))
     date = new Date().toLocaleDateString();
   }
-  
-  $.get("/get_data?date=" + date, function(data, status){
-    console.log(data);
-    build_charts(data);
+
+  $.get("/get_data?date="+date, function(data){
+    //string data (there are reasons why, ask me)
+    data = data.replace(/NaN/g, null);
+    build_charts($.parseJSON(data));
   });
 };
 

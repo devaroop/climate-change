@@ -2,9 +2,9 @@
     margin-top: 10px;
 }
 
-body {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%), url("/static/global-warming.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
+/* body { */
+/*     background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%), url("/static/global-warming.jpg"); */
+/*     background-size: cover; */
+/*     background-repeat: no-repeat; */
+/*     color: white; */
+/* } */
