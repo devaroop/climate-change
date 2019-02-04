@@ -64,7 +64,7 @@ var query_for_data = function(date){
     //string data (there are reasons why, ask me)
     data = data.replace(/NaN/g, null);
     build_charts($.parseJSON(data));
-    $('#date_display').text(date);
+    $('#date_display').text(date.slice(0, -5));
   });
 };
 
