@@ -24,6 +24,10 @@ var build_charts = function(data){
   chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation");
 };
 
+var randomColorGenerator = function () { 
+  return '#' + (Math.random().toString(16) + '0000000').slice(2, 8); 
+};
+
 var chart_template_build = function(elem, xaxis, yaxis, label){
   new Chart(elem, {
     type: 'line',
@@ -32,6 +36,7 @@ var chart_template_build = function(elem, xaxis, yaxis, label){
       datasets: [{
 	label: label,
 	data: yaxis,
+	borderColor: randomColorGenerator()
       }]
     }
   });
