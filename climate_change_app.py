@@ -22,7 +22,7 @@ def fetch_current_weather():
 
     result = json.loads(response.text)
     extracted_data = dict()
-    extracted_data["temp"] = int((result["currently"]["temperature"] - 32) / 1.8)
+    extracted_data["temp"] = "{0:.2f}".format((result["currently"]["temperature"] - 32) / 1.8)
     extracted_data["humidity"] = result["currently"]["humidity"] * 100
     extracted_data["rainProbability"] = result["currently"]["precipProbability"]
     extracted_data["ozone"] = result["currently"]["ozone"]
