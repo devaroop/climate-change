@@ -12,8 +12,41 @@
       </nav>
 
       <div class="jumbotron">
-	<h1 class="display-4">Data at Pune for this day: <span id="date_display"></span></h1>
-	<p class="lead">Because data doesn't lie..</p>
+	<h1 class="display-4">Data at Pune on this day:
+	  <span id="date_display"></span>
+	  <div id="design_spinners" style="display:none;text-align:center">
+	    <div class="spinner-border text-primary" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-secondary" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-success" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-danger" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-warning" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-info" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-light" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	    <div class="spinner-border text-dark" role="status">
+	      <span class="sr-only">Loading...</span>
+	    </div>
+	  </div>
+	</h1>
+	<div id="current_data_show" style="text-align:center;display:none;">
+	  <span class="badge badge-secondary big_font"> Temp: <span id="current_temp">  </span> deg </span>
+	  <span class="badge badge-secondary big_font"> Humidity: <span id="current_humidity">  </span>% </span>
+	  <span class="badge badge-secondary big_font"> Rain: <span id="current_precipitation">  </span>% </span>
+	  <span class="badge badge-secondary big_font"> Ozone: <span id="current_ozone">  </span> </span>
+	</div>
       </div>
       
       <div class="container" style="margin-top: 10px">

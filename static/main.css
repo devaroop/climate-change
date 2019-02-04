@@ -8,3 +8,7 @@
 /*     background-repeat: no-repeat; */
 /*     color: white; */
 /* } */
+
+.big_font {
+    font-size: 200%;
+}

@@ -57,19 +57,37 @@ $(document).ready(function(){
   });
 });
 
+var current_data_display = function(data){
+  if("current" in data){
+    var current_data = data["current"];
+    $("#current_temp").text(current_data["temp"]);
+    $("#current_humidity").text(current_data["humidity"]);
+    $("#current_precipitation").text(current_data["rainProbability"]);
+    $("#current_ozone").text(current_data["ozone"]);
+    $("#current_data_show").show();
+  }
+};
+
 var query_for_data = function(date){
   $('#date_display').text("Fetching.....");
-  
+  $('#design_spinners').show();
+  $("#current_data_show").hide();
+
+  var display_current_details = false;
   if(date == ""){
     $('#show_date').val(new Date().toISOString().slice(0, 10))
     date = new Date().toLocaleDateString();
+    display_current_details = true;
   }
 
-  $.get("/get_data?date="+date, function(data){
+  $.get("/get_data?date=" + date + "&current=" + display_current_details, function(data){
     //string data (there are reasons why, ask me)
     data = data.replace(/NaN/g, null);
-    build_charts($.parseJSON(data));
+    var parsed_data = $.parseJSON(data);
+    build_charts(parsed_data);
+    current_data_display(parsed_data);
     $('#date_display').text(date.slice(0, -5));
+    $('#design_spinners').hide();
   });
 };
 
