@@ -14,14 +14,14 @@ var build_charts = function(data){
   chart_template_build(tempChartCanvas, data["Year"], data["Temp"], "Temp in deg C", "line");
   chart_template_build(humidityChart, data["Year"], data["Humidity"], "% Humidity", "line");
   chart_template_build(vehicleChart, data["Year"], data["Total Vehicles"], "Total Vehicles in Pune", "line");
-  chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover", "bar");
+  chart_template_build(treeChart, data["Year"], data["TreeCover(sqkm)"], "Total Forest Cover (sq. km)", "bar");
   chart_template_build(populationChart, data["Year"], data["Population"], "Total Population in Pune", "line");
-  chart_template_build(waterChart, data["Year"], data["August(MONSOON)"], "Total ground water table", "line");
-  chart_template_build(ozoneChart, data["Year"], data["Ozone"], "Ozone Variation", "bar");
-  chart_template_build(noxChart, data["Year"], data["NOx"], "NOx variation", "bar");
-  chart_template_build(so2Chart, data["Year"], data["SO2"], "SO2 variation", "bar");
-  chart_template_build(pm25Chart, data["Year"], data["PM2.5"], "PM2.5 variation", "bar");
-  chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation", "bar");
+  chart_template_build(waterChart, data["Year"], data["August(MONSOON)"], "Total ground water table (mts)", "line");
+  chart_template_build(ozoneChart, data["Year"], data["Ozone"], "Ozone Variation (ppm)", "bar");
+  chart_template_build(noxChart, data["Year"], data["NOx"], "NOx variation (ppm)", "bar");
+  chart_template_build(so2Chart, data["Year"], data["SO2"], "SO2 variation (ppm)", "bar");
+  chart_template_build(pm25Chart, data["Year"], data["PM2.5"], "PM2.5 variation (ppm)", "bar");
+  chart_template_build(pm10Chart, data["Year"], data["PM10"], "PM10 variation (ppm)", "bar");
 };
 
 var randomColorGenerator = function () { 
